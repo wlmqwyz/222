@@ -1,0 +1,142 @@
+
+  .button-scale {
+    transition: transform 0.2s ease;
+  }
+  
+  .button-scale:hover {
+    transform: scale(1.1);
+  }
+
+  .select-style2 {
+    background:#ffffffad;
+    color: rgb(0, 0, 0); /* 文字颜色 */
+    border: 0px solid #ffffff;
+    display: inline-block;
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 14px; /* 字体大小 */
+    font-weight: bold; /* 加粗 */
+    line-height: 1.5em;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpolygon%20fill%3D%22%23ffffff%22%20points%3D%226%209%209%205%203%205%22%3E%3C/polygon%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1em top 20%, 0 0;
+    background-size: .80em auto, 50%;
+    border-radius: 20px; /* 增加圆角大小 */
+    width: 100%; /* 自适应宽度 */
+    margin-right: 20px; 
+  }
+  
+  .select-style2:hover {
+    border-color: #e596dd;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .select-style2:focus {
+    border-color: #7ddba0a9;
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.595);
+    color: #000000; /* 焦点时的文字颜色 */
+    outline: none;
+  }
+  .input-style2 {
+    background:#ffffffad;
+    color: rgb(0, 0, 0); /* 文字颜色 */
+    border: 0px solid #ffffff;
+    display: inline-block;
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 15px; /* 字体大小 */
+    font-weight: bold; /* 加粗 */
+    line-height: 1.5em;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpolygon%20fill%3D%22%23ffffff%22%20points%3D%226%209%209%205%203%205%22%3E%3C/polygon%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1em top 50%, 0 0;
+    background-size: .80em auto, 100%;
+    border-radius: 20px; /* 增加圆角大小 */
+    width: 30%; /* 自适应宽度 */
+  }
+  
+  .input-style2:hover {
+    border-color: #ffbaba51;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .input-style2:focus {
+    border-color: #7ddba0a9;
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.595);
+    color: #000000; /* 焦点时的文字颜色 */
+    outline: none;
+  }
+  .token-row {
+    display: flex;        /* 启用 flexbox */
+    align-items: center;  /* 垂直居中 */
+    justify-content: space-between; /* 元素之间平均分布空间 */
+  }
+  
+  .token-row select,
+  .token-row input,
+  .token-row button {
+    margin-right: 10px;  /* 在元素之间添加一些间隔 */
+  }
+  
+  .token-row button:last-child {
+    margin-right: 0; /* 最后一个元素不需要右边距 */
+  }
+  .xswap-heading {
+    margin-right: 20px; /* 向右移动 20 像素 */
+   
+    margin-top: 100px;
+    font-weight: bold; /* 加粗 */
+  }
+
+  .li-heading {
+    margin-bottom: 100px; 
+    margin-right: 40px;
+    font-weight: bold; /* 加粗 */
+  }
+
+
+  .select-style3 {
+    background:#ffffffad;
+    color: rgb(0, 0, 0); /* 文字颜色 */
+    border: 0px solid #ffffff;
+    display: inline-block;
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 14px; /* 字体大小 */
+    font-weight: bold; /* 加粗 */
+    line-height: 1.5em;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpolygon%20fill%3D%22%23ffffff%22%20points%3D%226%209%209%205%203%205%22%3E%3C/polygon%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1em top 20%, 0 0;
+    background-size: .80em auto, 50%;
+    border-radius: 20px; /* 增加圆角大小 */
+    width: 100%; /* 自适应宽度 */
+    margin-right: 20px; 
+  }
+  
+  .select-style3:hover {
+    border-color: #e596dd;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .select-style3:focus {
+    border-color: #7ddba0a9;
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.595);
+    color: #000000; /* 焦点时的文字颜色 */
+    outline: none;
+  }

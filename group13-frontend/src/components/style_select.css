@@ -1,0 +1,69 @@
+.select-style {
+    background:#ffffffae;
+    color: rgb(0, 0, 0); /* 文字颜色 */
+    border: 0px solid #ffffff;
+    display: inline-block;
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 15px; /* 字体大小 */
+    font-weight: bold; /* 加粗 */
+    line-height: 1.5em;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpolygon%20fill%3D%22%23ffffff%22%20points%3D%226%209%209%205%203%205%22%3E%3C/polygon%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1em top 50%, 0 0;
+    background-size: .80em auto, 100%;
+    border-radius: 20px; /* 增加圆角大小 */
+}
+
+.select-style:hover {
+    border-color: #e596dd;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+.select-style:focus {
+    border-color: #ffbaba71;
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.595);
+    color: #000000; /* 焦点时的文字颜色 */
+    outline: none;
+}
+
+/* 数字输入框基本样式 */
+.input-style {
+    background: #ffffffae; /* 淡红色背景 */
+    color: rgb(0, 0, 0); /* 白色文字 */
+    border: 0px solid #ffffff; /* 无边框 */
+    display: inline-block;
+    font-family: 'Arial', sans-serif; /* 使用Arial字体 */
+    font-size: 15px; /* 字体大小 */
+    font-weight: bold; /* 文字加粗 */
+    line-height: 1.5em;
+    padding: 10px 20px;
+    margin-bottom: 20px; /* 底部外边距 */
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 20px; /* 圆角边框 */
+    width: 100%; /* 自适应宽度 */
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); /* 内阴影，增加深度感 */
+    transition: border-color 0.3s, box-shadow 0.3s; /* 平滑过渡 */
+}
+
+/* 数字输入框悬浮时样式 */
+.input-style:hover {
+    border-color: #ffbaba51; /* 悬浮时边框颜色变化 */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* 数字输入框聚焦时样式 */
+.input-style:focus {
+    border-color: #ffbaba71; /* 聚焦时边框颜色 */
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.595); /* 聚焦时添加外阴影以提高视觉反馈 */
+    outline: none; /* 移除聚焦时默认轮廓 */
+}
+
